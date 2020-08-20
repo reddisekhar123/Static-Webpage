@@ -1,0 +1,268 @@
+
+#page{
+    font-family : Calibri;
+    width:100%;
+    height:100px;
+}
+::selection{
+    background-color: salmon;
+}
+header{
+    display: block;
+    width: 100%;
+    height:70px;
+    background: #333333;
+}
+
+header #header{
+    margin:0px auto;
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:70px;
+
+}
+header #header .logo{
+    font-size: 48px;
+    color:#fff; 
+    align-items: center;
+}
+
+header #header ul{
+    color:#fff;
+    display: flex;
+    flex-direction: row; 
+}
+
+header #header ul li{
+    padding:0px 0px 0px 20px;
+    cursor:pointer;
+}
+
+/* Responsive Menu Start */
+    #sliderMenu{
+        width:200px;
+        padding:10px;
+        min-height:200px;
+        position: fixed;
+        right:-200px;
+        /* margin-right:-200px; */
+        display: none;
+        background-color: #eee;;
+        z-index: 1;
+        box-shadow: -5px 5px 5px rgba(000,000,000,0.2);
+    }
+    #sliderMenu p{
+      font-size: 1.2em;
+      position: absolute;
+      right:0;
+      margin:-5px 5px 0px 0px;
+      border:1px solid red;
+      border-radius: 25px;
+      width:20px;
+      height:20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+    }
+    #sliderMenu ul:first-of-type{
+       border-bottom : 1px dotted red;
+    }
+    #sliderMenu ul li{
+       padding:0px 0px 10px 0px;
+    }
+    #sliderMenu h2{
+        font-size: 1.3em;
+        padding:10px 0px 10px 0px
+    }
+    .topNav {
+        background-color: #fff;
+        overflow: hidden;
+        display: none;
+    }
+/* Responsive Menu End */
+#menu-search{
+    width: 90%;
+    margin:0px auto;
+    height:60px;
+    color:#333;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#menu-search ul{
+    display: flex;
+    font-size:16px;
+}
+#menu-search ul li{
+    margin-right:10px;
+    cursor: pointer;
+    border:1px solid black;
+    padding:10px;
+}
+#menu-search ul li:hover{
+    text-decoration: underline;
+}
+#slider-wrapper{
+    min-height: 350px;
+    background: #eee;
+}
+#slider-wrapper .slider{
+    width:90%;
+    margin:0px auto;
+    min-height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+#slider-wrapper .slider .title{
+    width:60%;
+    font-size:58px;
+    background: url("../images/mask.png") no-repeat;
+    box-sizing: border-box;
+    height:179px;
+    text-transform:uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+
+#slider-wrapper .slider .content{
+    width:40%; 
+    font-size:18px;
+    color:#333;
+}
+#slider-wrapper .slider .content ul{
+   padding:0 !important;
+   margin:0 !important;
+}
+#slider-wrapper .slider .content li{
+   padding:0px 0px 10px 0px
+}
+#offers-catagory{
+    width:90%;
+    margin:0px auto;
+}
+#offers-catagory > ul{
+   width:100%;
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   font-size:1.5em;
+   text-transform: uppercase;
+   text-align: center;
+}
+#offers-catagory > ul li{
+    width:33.3%;
+    padding:20px 0px 20px 0px;
+ }
+ #offers-catagory > ul li p{
+    border-right:2px solid #eee;
+    padding-bottom:20px;
+ }
+ #offers-catagory > ul li p span{
+    font-size:2em;
+    padding-left:12px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+ #offers-catagory > ul li p i{
+    position: absolute;
+    margin-top: 7px;
+ }
+ #offers-catagory > ul li p.removeBorder{
+    border-right: 0px !important;
+ }
+ #offers-catagory > ul li p + span{
+   font-size: 16px;
+ }
+ #fashion-catagory {width: 90%;margin:0px auto;}
+ #fashion-catagory h1{
+     padding-top: 20px;
+     font-size: 1.5em;
+ }
+ #fashion-catagory h1::first-letter{
+   font-weight: bold;
+   font-size: 2em;
+ }
+ #fashion-catagory ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0px 40px 0px;
+ }
+ #fashion-catagory ul:last-child{ 
+    margin-top:0px 
+}
+#fashion-catagory ul li{
+    width:  180px;
+    height: 230px;
+    background: #dbf3fa;
+    padding-top: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+#product-catagory{
+    width: 90%;
+    margin: 0px auto;
+}
+#product-catagory ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+#product-catagory ul li{
+   padding: 0px 10px 0px 10px;
+   border-right: 1px solid #333;
+   margin: 5px 0px 5px 0px;
+   cursor: pointer;
+
+}
+#product-catagory ul li:last-child{
+    border-right: 0px solid #333;
+}
+footer{
+    display: block;
+    background: #131a22;
+    min-height: 300px;
+    margin-top: 35px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+footer #footer{
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+footer #footer section{
+    width: 25%;
+    color: #fff;
+}
+footer #footer section h2{
+   font-size: 1.5em;
+   font-weight: normal;
+}
+footer #footer section ul{
+  padding-top: 15px;
+}
+ footer #footer section li{
+   font-size: 16px;
+   padding: 5px 0px 5px 0px;
+}
+
+
+  
+
+
+
+
+
+

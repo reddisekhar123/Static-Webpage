@@ -1,0 +1,170 @@
+.navbar-custom{
+    background-color: #333333;
+}
+.navba-togglerr{
+    color: #ffffff;
+}
+
+.ncustom-toggler .navbar-toggler{
+    border-color: #ffffff;
+}
+
+.custom-toggler1 .navbar-toggler{
+    border-color: #ffffff;
+}
+
+.navbar-custom .navbar-brand{
+    color: #ffffff;
+    font-size: 49px;
+    padding-left: 60px;
+}
+
+.navbar-custom .navbar-text{
+    color: #ffffff;
+    font-size: 16px;
+    padding-left:20px;
+}
+
+.menu-search{
+    width: 90%;
+    margin:0px auto;
+    height:60px;
+    color:#333;
+}
+
+.menu-search .menu-search-bar{
+    font-size:16px;
+}
+
+.menu-search .menu-search-bar li{
+    margin-right:10px;
+    cursor: pointer;
+    border:1px solid black;
+    padding:10px;
+}
+
+.menu-search .menu-search-bar li:hover{
+    text-decoration: underline;
+}
+
+.container-fluid{
+    background: url("../images/mask.png") no-repeat;
+    box-sizing: border-box;
+}
+
+.container-fluid ul{
+   font-size:18px;
+   color:#333;
+   padding:0 !important;
+   margin:0 !important;
+}
+
+.container-fluid ul li{
+   padding:0px 0px 10px 0px;  
+}
+
+#offers-catagory{
+    width: 80%;
+    margin: 0px auto;
+}
+
+#offers-catagory .row{
+    list-style: none;
+    padding-top: 20px;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+    text-transform: uppercase;
+}
+
+#offers-catagory ul li{
+    width: 33.3%;
+    padding: 20px 0px 20px 0px;
+}
+
+#offers-catagory ul li p{
+    border-right: 2px solid #eee;
+    padding-bottom: 20px;
+}
+
+#offers-catagory ul li p span{
+    font-size: 2em;
+    color:  #30CFD0 0%, #330867 100%;
+    padding-left: 12px;
+}
+
+#offers-catagory ul li p + span{
+    font-size:16px;
+  }
+
+.fashion-catagory {width: 80%;margin:0px auto;}
+.fashion-catagory h1{
+    padding-top:20px;
+    font-size:1.5em;
+}
+
+.fashion-catagory h1::first-letter{
+    font-weight: bold;
+    font-size:2em;
+  }
+  .fashion-catagory .fashion{
+     flex-wrap: wrap;
+     justify-content:space-between;
+     margin:20px 0px 40px 0px;
+  }
+  .fashion-catagory .fashion ul:last-child{ 
+     margin-top:0px 
+ }
+
+ .fashion-catagory .fashion .li .span{
+     text-align: center;
+ }
+
+.product-catagory{
+    width: 90%;
+    margin:0px auto;
+}
+
+.product-catagory ul{
+    flex-wrap: wrap;   
+}
+
+.product-catagory ul li{
+   padding:0px 10px 0px 10px;
+   border-right:1px solid #333;
+   margin:5px 0px 5px 0px;
+   cursor: pointer;
+
+}
+.product-catagory ul li:last-child{
+    border-right:0px solid #333;
+}
+
+.footer{
+    display:block;
+    background: #131a22;
+    min-height:300px;
+    margin-top:35px;
+    box-sizing: border-box;
+    padding-top:20px;
+}
+.footer .container{ 
+    width:90%;
+    margin:0px auto;
+    display: flex;
+    flex-direction: row;
+}
+.footer .container .section{
+    width:25%;
+    color:#fff;
+}
+.footer .container .section .h2{
+   font-size:1.5em;
+   font-weight: normal;
+}
+.footer .container .section ul{
+  padding-top:15px;
+}
+ .footer .container .section li{
+   font-size:16px;
+   padding:5px 0px 5px 0px;
+}
